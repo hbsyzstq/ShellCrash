@@ -32,3 +32,6 @@ tools
 
 # 排除预编译内核（体积过大，由脚本自行下载）
 /bin/
+
+# 排除 GitHub Actions（token 无 workflow 权限）
+/.github/workflows/
