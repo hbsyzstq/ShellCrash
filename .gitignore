@@ -35,3 +35,6 @@ tools
 
 # 排除 GitHub Actions（token 无 workflow 权限）
 /.github/workflows/
+
+# 本地同步脚本
+/同步官方.bat
